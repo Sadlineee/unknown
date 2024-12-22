@@ -33,7 +33,7 @@ export const PrimaryText = styled.span`
 
   @media ${({ theme }) => theme.media.small} {
     width: 100%;
-    font-size: 4.25rem;
+    font-size: 3.5rem;
   }
 `
 
@@ -64,7 +64,7 @@ export const Shape = styled.div`
 
   @media ${({ theme }) => theme.media.small} {
     aspect-ratio: 1;
-    margin-left: -85%;
-    width: 85%;
+    margin-left: -80%;
+    width: 80%;
   }
 `
