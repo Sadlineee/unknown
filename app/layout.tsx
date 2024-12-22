@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { Analytics } from '@vercel/analytics/react'
 import StyledComponentsRegistry from '@/lib/registry'
 import Theme from '@/components/Theme'
 import { oswald } from '@/fonts/fonts'
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body className={oswald.className}>
         <Theme>
           <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+          <Analytics />
         </Theme>
       </body>
     </html>
