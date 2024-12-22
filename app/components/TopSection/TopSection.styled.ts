@@ -33,7 +33,7 @@ export const PrimaryText = styled.span`
 
   @media ${({ theme }) => theme.media.small} {
     width: 100%;
-    font-size: 3.5rem;
+    font-size: 4.25rem;
   }
 `
 
